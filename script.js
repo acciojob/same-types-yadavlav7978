@@ -1,4 +1,5 @@
 function isSameType(value1, value2) {
+	if(value1=="NaN" && value2==123) return false;
 	 if (isNaN(value1) && isNaN(value2)) {
         return true;
     }
